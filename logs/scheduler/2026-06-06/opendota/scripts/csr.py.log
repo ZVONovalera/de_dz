@@ -1,0 +1,493 @@
+[2026-06-06T19:48:46.058+0000] {processor.py:161} INFO - Started process (PID=13750) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:48:46.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:48:46.062+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:48:46.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:48:46.084+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:48:46.081+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:48:46.085+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:48:46.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.058 seconds
+[2026-06-06T19:49:16.382+0000] {processor.py:161} INFO - Started process (PID=13766) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:49:16.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:49:16.386+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:49:16.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:49:16.409+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:49:16.407+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:49:16.409+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:49:16.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.061 seconds
+[2026-06-06T19:49:46.701+0000] {processor.py:161} INFO - Started process (PID=13782) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:49:46.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:49:46.704+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:49:46.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:49:46.720+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:49:46.719+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:49:46.721+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:49:46.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.050 seconds
+[2026-06-06T19:50:17.043+0000] {processor.py:161} INFO - Started process (PID=13798) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:50:17.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:50:17.047+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:50:17.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:50:17.063+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:50:17.062+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:50:17.064+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:50:17.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.056 seconds
+[2026-06-06T19:50:47.375+0000] {processor.py:161} INFO - Started process (PID=13814) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:50:47.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:50:47.378+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:50:47.378+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:50:47.395+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:50:47.394+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:50:47.395+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:50:47.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.053 seconds
+[2026-06-06T19:51:17.700+0000] {processor.py:161} INFO - Started process (PID=13830) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:51:17.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:51:17.703+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:51:17.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:51:17.730+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:51:17.729+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:51:17.731+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:51:17.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.059 seconds
+[2026-06-06T19:51:48.020+0000] {processor.py:161} INFO - Started process (PID=13846) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:51:48.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:51:48.023+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:51:48.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:51:48.041+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:51:48.040+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:51:48.042+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:51:48.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.052 seconds
+[2026-06-06T19:52:18.333+0000] {processor.py:161} INFO - Started process (PID=13862) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:52:18.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:52:18.336+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:52:18.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:52:18.353+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:52:18.352+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:52:18.354+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:52:18.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.053 seconds
+[2026-06-06T19:52:48.656+0000] {processor.py:161} INFO - Started process (PID=13878) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:52:48.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:52:48.660+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:52:48.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:52:48.684+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:52:48.683+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:52:48.685+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:52:48.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.064 seconds
+[2026-06-06T19:53:19.007+0000] {processor.py:161} INFO - Started process (PID=13894) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:53:19.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:53:19.010+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:53:19.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:53:19.027+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:53:19.026+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:53:19.027+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:53:19.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.054 seconds
+[2026-06-06T19:53:49.436+0000] {processor.py:161} INFO - Started process (PID=13910) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:53:49.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:53:49.439+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:53:49.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:53:49.456+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:53:49.455+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:53:49.457+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:53:49.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.045 seconds
+[2026-06-06T19:54:19.768+0000] {processor.py:161} INFO - Started process (PID=13926) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:54:19.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:54:19.771+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:54:19.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:54:19.792+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:54:19.791+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:54:19.792+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:54:19.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.055 seconds
+[2026-06-06T19:54:50.083+0000] {processor.py:161} INFO - Started process (PID=13942) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:54:50.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:54:50.086+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:54:50.085+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:54:50.106+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:54:50.105+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:54:50.107+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:54:50.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.048 seconds
+[2026-06-06T19:55:20.426+0000] {processor.py:161} INFO - Started process (PID=13958) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:55:20.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:55:20.429+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:55:20.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:55:20.447+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:55:20.446+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:55:20.447+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:55:20.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.046 seconds
+[2026-06-06T19:55:50.741+0000] {processor.py:161} INFO - Started process (PID=13974) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:55:50.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:55:50.744+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:55:50.743+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:55:50.760+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:55:50.759+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:55:50.761+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:55:50.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.053 seconds
+[2026-06-06T19:56:21.062+0000] {processor.py:161} INFO - Started process (PID=13991) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:56:21.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:56:21.065+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:56:21.065+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:56:21.083+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:56:21.082+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:56:21.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:56:21.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.059 seconds
+[2026-06-06T19:56:51.397+0000] {processor.py:161} INFO - Started process (PID=14007) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:56:51.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:56:51.400+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:56:51.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:56:51.415+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:56:51.414+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:56:51.416+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:56:51.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.056 seconds
+[2026-06-06T19:57:21.740+0000] {processor.py:161} INFO - Started process (PID=14023) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:57:21.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:57:21.744+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:57:21.744+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:57:21.772+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:57:21.770+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:57:21.772+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:57:21.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.064 seconds
+[2026-06-06T19:57:52.075+0000] {processor.py:161} INFO - Started process (PID=14045) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:57:52.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:57:52.078+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:57:52.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:57:52.099+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:57:52.098+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:57:52.100+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:57:52.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.054 seconds
+[2026-06-06T19:58:22.475+0000] {processor.py:161} INFO - Started process (PID=14061) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:58:22.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:58:22.483+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:58:22.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:58:22.509+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:58:22.506+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:58:22.510+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:58:22.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.073 seconds
+[2026-06-06T19:58:52.912+0000] {processor.py:161} INFO - Started process (PID=14077) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:58:52.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:58:52.914+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:58:52.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:58:52.932+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:58:52.931+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:58:52.933+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:58:52.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.042 seconds
+[2026-06-06T19:59:23.226+0000] {processor.py:161} INFO - Started process (PID=14093) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:59:23.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:59:23.229+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:59:23.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:59:23.249+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:59:23.247+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:59:23.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:59:23.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.052 seconds
+[2026-06-06T19:59:53.552+0000] {processor.py:161} INFO - Started process (PID=14109) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:59:53.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T19:59:53.555+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:59:53.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:59:53.574+0000] {logging_mixin.py:188} INFO - [2026-06-06T19:59:53.573+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T19:59:53.575+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T19:59:53.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.053 seconds
+[2026-06-06T20:00:23.870+0000] {processor.py:161} INFO - Started process (PID=14125) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:00:23.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T20:00:23.874+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:00:23.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:00:23.890+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:00:23.889+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T20:00:23.891+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:00:23.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.045 seconds
+[2026-06-06T20:00:54.173+0000] {processor.py:161} INFO - Started process (PID=14141) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:00:54.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T20:00:54.177+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:00:54.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:00:54.199+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:00:54.197+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T20:00:54.199+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:00:54.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.062 seconds
+[2026-06-06T20:01:24.512+0000] {processor.py:161} INFO - Started process (PID=14157) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:01:24.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T20:01:24.515+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:01:24.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:01:24.534+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:01:24.533+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T20:01:24.535+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:01:24.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.052 seconds
+[2026-06-06T20:01:54.843+0000] {processor.py:161} INFO - Started process (PID=14172) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:01:54.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T20:01:54.847+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:01:54.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:01:54.868+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:01:54.867+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T20:01:54.868+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:01:54.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.058 seconds
+[2026-06-06T20:02:25.160+0000] {processor.py:161} INFO - Started process (PID=14187) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:02:25.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T20:02:25.163+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:02:25.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:02:25.180+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:02:25.179+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T20:02:25.181+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:02:25.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.050 seconds
+[2026-06-06T20:02:55.484+0000] {processor.py:161} INFO - Started process (PID=14203) to work on /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:02:55.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/opendota/scripts/csr.py for tasks to queue
+[2026-06-06T20:02:55.488+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:02:55.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:02:55.510+0000] {logging_mixin.py:188} INFO - [2026-06-06T20:02:55.508+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/opendota/scripts/csr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/opendota/scripts/csr.py", line 4
+    with DAG('etl_broken', schedule='@daily', catchup=True, ...) as dag:
+                                                               ^
+SyntaxError: positional argument follows keyword argument
+[2026-06-06T20:02:55.510+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/opendota/scripts/csr.py
+[2026-06-06T20:02:55.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/opendota/scripts/csr.py took 0.055 seconds
