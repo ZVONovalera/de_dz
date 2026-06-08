@@ -1,5 +1,0 @@
-
-.venv/
-logs/
-poetry.lock
-pyproject.toml
